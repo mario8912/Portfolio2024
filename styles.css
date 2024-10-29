@@ -3,12 +3,39 @@
 }
 
 html {
-    background-color: #ebe9df;
     scroll-behavior: smooth;
+    margin: 0 20vw;
 }
 
 body {
     margin: 0;
-    padding-top: 10vh;
     overflow-x: hidden;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+    height: 50px;
+    padding: 0 10px; 
+    border: solid 1px gray;
+}
+
+.left-item {
+    flex: 0 0 auto; /* Asegura que solo ocupe el espacio necesario */
+}
+
+.right-items {
+    display: flex;
+    gap:2vw; /* Espacio entre los items */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
 }
