@@ -3,24 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Charm:wght@400;700&family=Handlee&family=Italiana&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Portfolio - Mario Líopez Vila</title>
 </head>
 <body>  
-    <menu class="menu">
-        <div class="left-item">MARIO LÓPEZ VILA</div>
-        <div class="right-items">
-            <item><a href="#aboutMe">Inicio</a></item>
-            <item><a href="#projects">Proyectos</a></item>
-            <item><a href="#cv">Mi CV</a></item>
-            <item><a href="#contact">Contactos</a></item>
-        </div>
-    </menu>
 
+    <div class="menu-container">
+        <nav class="menu">
+            <p class="left-item">MARIO LÓPEZ VILA</p>
+            <div class="right-items">
+                <item><a href="#aboutMe">Inicio</a></item>
+                <item><a href="#projects">Proyectos</a></item>
+                <item><a href="#cv">Mi CV</a></item>
+                <item><a href="#contact">Contactos</a></item>
+            </div>
+        </nav>
+    </div>
     <main>
         <section id="aboutMe">
             <div class="container-about-me">
-                <h1 class="text-about-me-title">Buenas! Soy Mario, un desarrolador de software con ambición, actitud y perseverancia.</h1>
+                <h1 class="text-about-me-title">Hola! Soy Mario, un desarrolador de software con ambición, actitud y perseverancia.</h1>
                 <p class="text-about-me">Pese a mi escasa experiencia profesional, dispongo de
                     gran compromiso, de tal forma que pueda aprender y adaptarme
                     rápidamente al entorno laboral y sus necesidades profesionale. 
@@ -37,13 +42,23 @@
                     acceder al puesto y resaltar entre los candidatos.
                 </p>
             </div> 
-            <img src="images/profilePic.jpg" alt="">
+            <img id="portrait" src="images/profilePic.jpg" alt="">
         </section>
 
-        <section id="projects"></section>
+        <section id="projects">
+            <h1>Mis proyectos: </h1>
 
+        <section id="projects-container">
+            <article class="project-card"></article>
+            <article class="project-card"></article>
+            <article class="project-card"></article>
+        </section>
+        </section>
+        
+
+        <div id="a"></div>
     </main>
-    <script src="js.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>
