@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ebe9df;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding-top: 10vh;
+    overflow-x: hidden;
+}
